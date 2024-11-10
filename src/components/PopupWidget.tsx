@@ -5,10 +5,11 @@ import {
   Transition,
   DisclosurePanel,
 } from "@headlessui/react";
+import { XMarkIcon, ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/solid";
 import React, { useState } from "react";
 
 export function PopupWidget() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormRequest>({
     name: "",
     email: "",
     section: "Tech", // Default section
@@ -71,29 +72,17 @@ export function PopupWidget() {
         {({ open }) => (
           <>
             <DisclosureButton className="fixed z-40 flex items-center justify-center transition duration-300 bg-indigo-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-indigo-600 focus:bg-indigo-600 ease">
-              <span className="sr-only">Open Contact form Widget</span>
-              <Transition
-                show={!open}
-                enter="transition duration-200 transform ease"
-                enterFrom="opacity-0 -rotate-45 scale-75"
-                leave="transition duration-100 transform ease"
-                leaveTo="opacity-0 -rotate-45"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
+              {open ? (
+                <XMarkIcon
                   className="absolute w-6 h-6 text-white"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>
-              </Transition>
+                  aria-hidden="true"
+                />
+              ) : (
+                <ChatBubbleOvalLeftEllipsisIcon
+                  className="absolute w-6 h-6 text-white"
+                  aria-hidden="true"
+                />
+              )}
             </DisclosureButton>
 
             <Transition
@@ -104,10 +93,10 @@ export function PopupWidget() {
               leaveTo="opacity-0 translate-y-5"
               as="div"
             >
-              <DisclosurePanel className="flex flex-col overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-                <div className="p-6 sm:w-[350px] sm:h-auto bg-white border border-gray-300 shadow-xl rounded-md">
+              <DisclosurePanel className="flex flex-col overflow-hidden w-full h-full sm:max-w-[350px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md">
+                <div className="p-6 sm:w-[350px] flex flex-col justify-center h-full bg-white border border-gray-300 shadow-xl rounded-md">
                   <h3 className="text-lg text-center text-indigo-600">
-                    How can we help?
+                    Please Provide Suggestions or Requests
                   </h3>
 
                   <form onSubmit={handleSubmit}>

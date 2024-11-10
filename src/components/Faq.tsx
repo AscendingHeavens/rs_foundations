@@ -87,6 +87,11 @@ const faqdata: Faq[] = [
   {
     question: "Do you offer support for completed projects?",
     answer:
-      "Yes, we provide post-project support and maintenance, made by our team at RS Foundations, for an additional fee. This ensures your project continues to run smoothly after launch, with updates, bug fixes, and any necessary adjustments handled by our experts.",
+      "Yes, we provide post-project support and maintenance for an additional fee, but only for projects completed by our team at RS Foundations. This ensures that your project continues to run smoothly after launch, with updates, bug fixes, and any necessary adjustments handled by our experts.",
+  },
+  {
+    question: "What is the onboarding process for new projects?",
+    answer:
+      "Our onboarding process includes an initial consultation to understand your goals, followed by detailed planning and timeline estimates. We ensure that every aspect is covered to align with your vision before development begins.",
   },
 ];

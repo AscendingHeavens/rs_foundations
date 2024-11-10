@@ -14,3 +14,10 @@ interface Faq {
   question: string;
   answer: string;
 }
+
+type FormRequest = {
+  name: string;
+  email: string;
+  section: string;
+  message: string;
+}
