@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
-import Image from "next/image";
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation: string[] = ["Tech", "Solutions", "Media", "Articles"];
@@ -34,7 +33,7 @@ export const Navbar = () => {
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button
+              <DisclosureButton
                 aria-label="Toggle Menu"
                 className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
               >
@@ -57,9 +56,9 @@ export const Navbar = () => {
                     />
                   )}
                 </svg>
-              </Disclosure.Button>
+              </DisclosureButton>
 
-              <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+              <DisclosurePanel className="flex flex-wrap w-full my-5 lg:hidden">
                 <>
                   {navigation.map((item, index) => (
                     <Link
@@ -77,7 +76,7 @@ export const Navbar = () => {
                     Get Started
                   </Link>
                 </>
-              </Disclosure.Panel>
+              </DisclosurePanel>
             </>
           )}
         </Disclosure>
