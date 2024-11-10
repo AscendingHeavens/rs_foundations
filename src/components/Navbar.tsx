@@ -2,6 +2,7 @@
 import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import Logo from "./Logo";
 
 export const Navbar = () => {
   const navigation: string[] = ["Tech", "Solutions", "Media", "Articles"];
@@ -10,13 +11,7 @@ export const Navbar = () => {
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         <Link href="/">
-          <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-            {/* RS Logo Box */}
-            <span className="flex items-center justify-center w-12 h-12 text-normal bg-[#4F46E5] text-white font-semibold rounded p-4">
-              RS
-            </span>
-            <span>Foundations</span>
-          </span>
+         <Logo />
         </Link>
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
