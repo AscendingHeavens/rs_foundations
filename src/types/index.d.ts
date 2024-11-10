@@ -21,3 +21,17 @@ type FormRequest = {
   section: string;
   message: string;
 }
+
+interface CardProps {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+}
+
+type tech = {
+  id: number;
+  name: string;
+  usage: string;
+  description: string;
+}

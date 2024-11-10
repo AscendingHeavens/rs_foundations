@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
@@ -10,7 +9,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class", // or 'media' or 'class'
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
@@ -22,9 +21,11 @@ const config: Config = {
       stock: [defaultTheme.fontFamily.sans],
     },
   },
-  variants: {
-    extend: {},
+  variants: {},
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "night"], // Adding night theme to DaisyUI
   },
-  plugins: [],
 };
+
 export default config;
