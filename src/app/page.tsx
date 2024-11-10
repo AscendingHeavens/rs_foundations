@@ -4,7 +4,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Faq } from "@/components/Faq";
 import About from "@/components/About";
 
-export const Home = () => {
+export default function Home () {
   return (
     <Container>
       <Hero />
@@ -22,4 +22,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+
