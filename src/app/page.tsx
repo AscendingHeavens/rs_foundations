@@ -1,10 +1,10 @@
+import About from "@/components/About";
 import { Container } from "@/components/Container";
+import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Faq } from "@/components/Faq";
-import About from "@/components/About";
 
-export default function Home () {
+export default function Home() {
   return (
     <Container>
       <Hero />
@@ -20,6 +20,4 @@ export default function Home () {
       <Faq />
     </Container>
   );
-};
-
-
+}
