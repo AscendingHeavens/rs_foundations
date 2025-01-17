@@ -1,7 +1,7 @@
 import * as React from "react";
-import {FeatureCardProps } from "./Types";
+import { FeatureCardProps } from "./Types";
 
-export const Card: React.FC<FeatureCardProps> = ({
+export const FeatureCard: React.FC<FeatureCardProps> = ({
   imageSrc,
   imageAlt,
   title,
@@ -18,10 +18,10 @@ export const Card: React.FC<FeatureCardProps> = ({
             className="object-contain w-full aspect-[1.5]"
           />
         </div>
-        <div className="self-center mt-11 text-2xl font-bold leading-none text-center text-purple-500  max-md:mt-10">
+        <div className="self-center mt-11 text-2xl font-bold leading-none text-center text-purple-500   dark:text-purple-500 max-md:mt-10">
           {title}
         </div>
-        <div className="mt-6 text-xl leading-8 text-center text-neutral-800">
+        <div className="mt-6 text-xl leading-8 text-center  dark:text-gray-300 text-neutral-800">
           {description.map((line, index) => (
             <React.Fragment key={index}>
               {line}
@@ -31,5 +31,5 @@ export const Card: React.FC<FeatureCardProps> = ({
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

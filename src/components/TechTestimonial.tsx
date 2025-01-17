@@ -39,14 +39,14 @@ const TechTestimonial = () => {
     };
   
     return (
-      <div className="container mx-auto my-8">
+      <div className=" mx-auto my-8">
         <div className="max-w-7xl mx-auto">
           <section>
             <figure>
-              <div className="relative bg-white">
+              <div className="relative">
                
                 <div className="pt-20 px-6 md:px-0">
-                  <p className="text-gray-600 text-base pb-6">{socialProofs[currentIndex].text}</p>
+                  <p className=" dark:text-white text-gray-600 text-base pb-6">{socialProofs[currentIndex].text}</p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center pb-12">
                       <div className="h-12 w-12">

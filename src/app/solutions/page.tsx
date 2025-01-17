@@ -1,3 +1,4 @@
+import { CaseStudiesPage } from '@/components/CaseStudyPage'
 import TechFeature from '@/components/TechFeature'
 import TechHero from '@/components/TechHero'
 import TechList from '@/components/TechList'
@@ -8,7 +9,7 @@ const SolutionsPage = () => {
   return (
     <><TechHero />
     <TechList />
-    <TechFeature/>
+  <CaseStudiesPage/>
     <TechTestimonial/>
     </>
   )

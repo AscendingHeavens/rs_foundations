@@ -12,7 +12,7 @@ export const Navbar = () => {
   const navigation: Navlinks[] = [
     { title: "Tech", href: "/tech" },
     { title: "Solutions", href: "/solutions" },
-    { title: "Media", href: "/media" },
+   
     { title: "Articles", href: "https://medium.com/@rishimishra0404" },
   ];
 

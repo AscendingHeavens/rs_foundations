@@ -1,68 +1,85 @@
-import React from 'react'
+import Image from "next/image";
 
-const TechFeature = () => {
+const mockData = {
+  title: "Empower Your Projects",
+  description:
+    "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
+  image: "/_static/illustrations/work-from-home.jpg",
+  features: [
+    {
+      title: "Collaborative",
+      description: "Work together with your team members in real-time.",
+      icon: "laptop", // This will be unused but kept for structure consistency
+    },
+    {
+      title: "Innovative",
+      description: "Stay ahead of the curve with constant updates.",
+      icon: "settings",
+    },
+    {
+      title: "Scalable",
+      description: "Our platform offers the scalability needed to adapt to your needs.",
+      icon: "search",
+    },
+  ],
+};
+// Types
+interface InfoFeature {
+  title: string;
+  description: string;
+  icon: string; // Keeping it in case it's used elsewhere
+}
+
+interface InfoSectionData {
+  title: string;
+  description: string;
+  image: string;
+  features: InfoFeature[];
+}
+
+interface TechFeatureProps {
+  data: InfoSectionData;
+  reverse?: boolean;
+}
+
+// Component
+const TechFeature: React.FC<TechFeatureProps> = ({ data, reverse = false }) => {
   return (
-<section className="bg-white pb-6">
-    <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
-      <div className="container mx-auto px-6 p-6 bg-white">
-        <div className="mb-16 text-center">
-          <h4 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Features</h4>
-          <p className="mt-2 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900">
-            How we change the game
-          </p>
-        </div>
-        <div className="flex flex-wrap my-12">
-          {/* Feature Items */}
-          {[
-            {
-              title: 'Increase sales',
-              description:
-                'Consectetur pariatur irure exercitation sit amet id consectetur consectetur magna et Lorem labore qui velit.',
-            },
-            {
-              title: 'Enterprise-ready',
-              description:
-                'Labore duis pariatur est exercitation laboris cupidatat amet cillum. Amet nisi ullamco.',
-            },
-            {
-              title: 'Unlimited growth',
-              description:
-                'Elit deserunt nisi esse duis cupidatat proident sit minim mollit officia pariatur incididunt in tempor.',
-            },
-            {
-              title: 'Recommended by experts',
-              description:
-                'Velit sit tempor pariatur quis pariatur incididunt culpa dolor voluptate officia incididunt velit dolore.',
-            },
-            {
-              title: 'Modern platform',
-              description:
-                'Laboris elit consectetur sint nisi eu mollit proident sit magna velit adipisicing consequat amet reprehenderit.',
-            },
-            {
-              title: 'Integrations',
-              description:
-                'Nostrud excepteur incididunt proident sit nulla ipsum sunt nostrud est esse adipisicing irure officia consectetur.',
-            },
-          ].map((item, index) => (
-            <div
-              key={index}
-              className={`w-full border-b md:w-1/2 lg:w-1/3 p-8 ${
-                index % 3 === 2 ? 'lg:border-r-0' : 'lg:border-r'
-              } ${index < 3 ? 'lg:border-b-0' : ''}`}
-            >
-              <div className="flex items-center mb-6">
-               
-                <div className="ml-4 text-xl">{item.title}</div>
+    <div className="py-10 sm:py-20">
+      <div className="container mx-auto grid gap-10 px-4 lg:grid-cols-2 lg:items-center lg:px-8">
+        {/* Text Content */}
+        <div className={reverse ? "lg:order-2" : "lg:order-1"}>
+          <h2 className="text-2xl font-bold md:text-4xl lg:text-5xl">{data.title}</h2>
+          <p className="mt-4 text-base dark:text-white text-gray-600">{data.description}</p>
+          <dl className="mt-6 space-y-6">
+            {data.features.map((feature, index) => (
+              <div className="relative pl-10" key={index}>
+                <dt className="flex items-center font-semibold">
+                  <span className="absolute left-0 top-0 h-6 w-6  bg-blue-500 rounded-full"></span>
+                  {feature.title}
+                </dt>
+                <dd className="mt-1 text-sm dark:text-white text-gray-500">{feature.description}</dd>
               </div>
-              <p className="leading-loose text-gray-500">{item.description}</p>
-            </div>
-          ))}
+            ))}
+          </dl>
+        </div>
+
+        {/* Image Content */}
+        <div className={`overflow-hidden rounded-lg border ${reverse ? "lg:order-1" : "lg:order-2"}`}>
+          <div className="aspect-video">
+            <Image
+              className="h-full w-full object-cover"
+              src={data.image}
+              alt={data.title}
+              width={1000}
+              height={500}
+              priority
+            />
+          </div>
         </div>
       </div>
     </div>
-  </section>
-  )
-}
+  );
+};
 
-export default TechFeature
+export default TechFeature;

@@ -39,51 +39,7 @@ const About = () => {
         </h3>
       </section>
 
-      {/* Tech Stack Table Section */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-          Our Tech Stack
-        </h2>
-        <div className="overflow-x-auto">
-          <table className="table w-full border border-gray-300 dark:border-gray-700 shadow-xl">
-            <thead>
-              <tr>
-                <th className="text-left border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-100">
-                  #
-                </th>
-                <th className="text-left border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-100">
-                  Technology
-                </th>
-                <th className="text-left border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-100">
-                  Usage
-                </th>
-                <th className="text-left border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-100">
-                  Description
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {techStack.map((tech) => (
-                <tr key={tech.id}>
-                  <th className="border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200">
-                    {tech.id}
-                  </th>
-                  <td className="text-bold border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200">
-                    {tech.name}
-                  </td>
-                  <td className="border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200">
-                    {tech.usage}
-                  </td>
-                  <td className="border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200">
-                    {tech.description}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
+      
       {/* Cards for Different RS Branches */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {cardData.map((card, index) => (

@@ -1,11 +1,9 @@
-import SaasHero from '@/components/Tech/SaasHero'
-
-import React from 'react'
+import LandingPage from '@/components/Tech/LandingPage'
 
 const TechPage = () => {
   return (
     <>
-    <SaasHero/>
+    <LandingPage/>
     </>
   )
 }
