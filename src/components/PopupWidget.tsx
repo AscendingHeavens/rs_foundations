@@ -93,9 +93,9 @@ export function PopupWidget() {
               leaveTo="opacity-0 translate-y-5"
               as="div"
             >
-              <DisclosurePanel className="flex flex-col overflow-hidden w-full h-full sm:max-w-[350px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md">
-                <div className="p-6 sm:w-[350px] flex flex-col justify-center h-full bg-white border border-gray-300 shadow-xl rounded-md">
-                  <h3 className="text-lg text-center text-indigo-600">
+              <DisclosurePanel className="flex flex-col overflow-hidden w-full h-full sm:max-w-[350px] border border-gray-300 dark:border-gray-800 dark:bg-black bg-white shadow-2xl rounded-md">
+                <div className="p-6 sm:w-[350px] flex flex-col justify-center h-full dark:bg-black bg-white border border-gray-300 shadow-xl rounded-md">
+                  <h3 className="text-lg text-center dark:text-purple-500 text-indigo-600">
                     Please Provide Suggestions or Requests
                   </h3>
 
@@ -144,7 +144,7 @@ export function PopupWidget() {
                     <div className="mb-4">
                       <label
                         htmlFor="section"
-                        className="block text-sm text-gray-600"
+                        className="block text-sm dark:text-white text-gray-600"
                       >
                         Select Section
                       </label>
@@ -166,7 +166,7 @@ export function PopupWidget() {
                     <div className="mb-4">
                       <label
                         htmlFor="message"
-                        className="block text-sm text-gray-600"
+                        className="block text-sm dark:text-white text-gray-600"
                       >
                         {formData.section === "Tech" ? "Suggestion" : "Request"}
                       </label>
