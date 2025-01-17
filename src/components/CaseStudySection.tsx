@@ -30,13 +30,13 @@ export const CaseStudySection = ({
               {caseStudies.map((study, index) => (
                 // Provide the correct URL to the `Link` component
                 <Link href={study.url || '/default-page'} key={index}>
-                  <a>
+                
                     <CaseStudyCard
                       imageUrl={study.imageUrl}
                       description={study.description}
                       url={study.url} // Pass the correct `url` to `CaseStudyCard`
                     />
-                  </a>
+                  
                 </Link>
               ))}
             </div>
