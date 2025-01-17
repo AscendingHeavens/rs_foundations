@@ -18,7 +18,7 @@ export const Card: React.FC<FeatureCardProps> = ({
             className="object-contain w-full aspect-[1.5]"
           />
         </div>
-        <div className="self-center mt-11 text-2xl font-bold leading-none text-center text-purple-500  max-md:mt-10">
+        <div className="self-center mt-11 text-2xl font-bold leading-none text-center text-indigo-500  max-md:mt-10">
           {title}
         </div>
         <div className="mt-6 text-xl leading-8 text-center text-neutral-800">

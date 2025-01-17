@@ -96,7 +96,7 @@ const LandingPage = () => {
 
       {/* Features Section */}
       <div className="flex flex-col items-center mt-20">
-        <h2 className="text-5xl font-semibold text-center leading-[66px]  dark:text-purple-500 text-purple-500 max-md:max-w-full max-md:text-4xl max-md:leading-[55px]">
+        <h2 className="text-5xl font-semibold text-center leading-[66px]  dark:text-purple-500 text-indigo-500 max-md:max-w-full max-md:text-4xl max-md:leading-[55px]">
           Build a successful MVP showcase
         </h2>
         <p className="mt-10 text-2xl leading-10 text-center dark:text-white text-neutral-800 max-md:max-w-full">

@@ -10,19 +10,19 @@ export interface CaseStudyCardProps {
 export const CaseStudiesPage = () => {
   const caseStudiesData = [
     {
-      imageUrl: "/headphone.png", 
-      description: "Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.",
-      url: "/headphone-study",  // Add a valid URL
+      imageUrl: "/LandingPage.png", 
+      description: "Agency Website",
+      url: "https://transcendconsultancy.in/",  // Add a valid URL
     },
     {
-      imageUrl: "/chess.png",
-      description: "Velit reprehenderit culpa Lorem reprehenderit ipsum esse.",
-      url: "/chess-study",  // Add a valid URL
+      imageUrl: "/agency.png",
+      description: "Product Landing Page",
+      url: "https://vrindaskin.vercel.app/",  // Add a valid URL
     },
     {
-      imageUrl: "/clock.png",
-      description: "Velit reprehenderit culpa Lorem reprehenderit excepteur esse.",
-      url: "/clock-study",  // Add a valid URL
+      imageUrl: "/travels.png",
+      description: "Tours & Travels Landong Page",
+      url: "https://next-travels.vercel.app/",  // Add a valid URL
     },
   ];
 

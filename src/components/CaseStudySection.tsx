@@ -2,7 +2,7 @@ import React from "react";
 import { CaseStudyCard } from "./CaseStudyCard";
 import { CaseStudySectionProps } from "./types";
 import Image from "next/image";
-import Link from "next/link";  // Don't forget to import Link
+import Link from "next/link";
 
 export const CaseStudySection = ({
   title,
@@ -24,19 +24,17 @@ export const CaseStudySection = ({
         <p className="mt-12 text-xl leading-snug text-center text-gray-400 max-md:mt-10 max-md:max-w-full">
           {subtitle}
         </p>
+
         <div className="self-stretch mt-24 max-md:mt-10 max-md:max-w-full">
           <div className="transition-transform duration-300 ease-in-out">
             <div className="flex gap-5 max-md:flex-col">
               {caseStudies.map((study, index) => (
-                // Provide the correct URL to the `Link` component
-                <Link href={study.url || '/default-page'} key={index}>
-                
-                    <CaseStudyCard
-                      imageUrl={study.imageUrl}
-                      description={study.description}
-                      url={study.url} // Pass the correct `url` to `CaseStudyCard`
-                    />
+                <Link key={index} href={study.url} passHref>
                   
+                    <CaseStudyCard
+                    imageUrl={study.imageUrl}
+                    description={study.description} url={""}                    />
+              
                 </Link>
               ))}
             </div>

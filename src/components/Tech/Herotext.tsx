@@ -16,7 +16,7 @@ const Herotext: React.FC<HeroSectionProps> = ({ title, description, imageSrc, im
           </div>
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
-              <div className="self-start text-7xl font-bold leading-[84px]  dark:text-purple-500 text-purple-500  max-md:max-w-full max-md:text-4xl max-md:leading-[56px]">
+              <div className="self-start text-7xl font-bold leading-[84px]  dark:text-purple-500 text-indigo-500 max-md:max-w-full max-md:text-4xl max-md:leading-[56px]">
                 {title.map((line, index) => (
                   <React.Fragment key={index}>
                     {line}

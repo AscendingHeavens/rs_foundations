@@ -7,7 +7,7 @@ export const WhyUsContent: React.FC<WhyUsContentProps> = ({ features }) => (
     <div className="self-start text-base font-bold tracking-wide leading-none uppercase">
       Why us
     </div>
-    <div className="mt-0.5 mr-5 text-7xl font-bold leading-[84px]   dark:text-purple-500  text-purple-500  max-md:mt-10 max-md:mr-2.5 max-md:max-w-full max-md:text-4xl max-md:leading-[56px]">
+    <div className="mt-0.5 mr-5 text-7xl font-bold leading-[84px]   dark:text-purple-500  text-indigo-500 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full max-md:text-4xl max-md:leading-[56px]">
       We make better<br />partnership
     </div>
     <div className="mt-9 max-md:max-w-full">
@@ -17,7 +17,7 @@ export const WhyUsContent: React.FC<WhyUsContentProps> = ({ features }) => (
       support are essential for building successful startup<br />
       partnerships.
     </div>
-    <div className="self-start mt-8 text-3xl font-bold leading-none   dark:text-purple-500 text-purple-500 ">
+    <div className="self-start mt-8 text-3xl font-bold leading-none   dark:text-purple-500 text-indigo-500">
       Startup support
     </div>
     {features.map((feature, index) => (
