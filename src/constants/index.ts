@@ -109,21 +109,21 @@ export const techStack: tech[] = [
 // Card Data
 export const cardData: CardProps[] = [
   {
-    title: "RS Tech",
+    title: "Tech",
     description:
       "Creating innovative, proprietary projects that push boundaries and drive industry impact.",
     image: "/img/tech.png",
     link: "/tech",
   },
   {
-    title: "RS Solutions",
+    title: "Solutions",
     description:
       "Offering custom development solutions tailored to client specifications, from design to deployment.",
     image: "/img/solution.png",
     link: "/solutions",
   },
   {
-    title: "RS Media",
+    title: "Media",
     description:
       "Delivering strategic social media marketing to help clients reach and engage their target audience.",
     image: "/img/media.jpeg",

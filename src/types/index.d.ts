@@ -20,7 +20,7 @@ type FormRequest = {
   email: string;
   section: string;
   message: string;
-}
+};
 
 interface CardProps {
   title: string;
@@ -34,4 +34,46 @@ type tech = {
   name: string;
   usage: string;
   description: string;
+};
+
+interface CaseStudyCardProps {
+  url: string;
+  imageUrl: string;
+  description: string;
+}
+
+interface CaseStudySectionProps {
+  title: string;
+  subtitle: string;
+  caseStudies: CaseStudyCardProps[];
+}
+
+interface HeroSectionProps {
+  title: string[];
+  description: string[];
+  imageSrc: string;
+  imageAlt: string;
+}
+interface FeatureCardProps {
+  imageSrc: string;
+  imageAlt: string;
+  title: string;
+  description: string[];
+}
+interface SupportFeatureProps {
+  description: string;
+}
+
+interface WhyUsContentProps {
+  features: string[];
+}
+interface HeroTextProps {
+  text: string;
+  className?: string;
+}
+
+interface ImageProps {
+  src: string;
+  alt: string;
+  className: string;
 }
