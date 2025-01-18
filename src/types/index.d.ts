@@ -49,16 +49,16 @@ interface CaseStudySectionProps {
 }
 
 interface HeroSectionProps {
-  title: string;
-  description: string;
+  title: string[];
+  description: string[];
   imageSrc: string;
   imageAlt: string;
 }
 interface FeatureCardProps {
   imageSrc: string;
   imageAlt: string;
-  title: string;
-  description: string;
+  title: string[];
+  description: string[];
 }
 interface SupportFeatureProps {
   description: string;
@@ -77,7 +77,7 @@ interface ImageProps {
   alt: string;
   className: string;
 }
- interface FeatureCardsProps {
+interface FeatureCardsProps {
   icon: string;
   title: string;
   description?: string;
@@ -88,30 +88,30 @@ interface ButtonProps {
   icon?: string;
   onClick?: () => void;
 }
- interface SocialFeatureProps {
+interface SocialFeatureProps {
   icon: string;
   text: string;
-  description:string;
+  description: string;
 }
 
- interface SocialFeatureListProps {
+interface SocialFeatureListProps {
   features: SocialFeatureProps[];
 }
 
- interface ButtonsProps {
+interface ButtonsProps {
   text: string;
   iconSrc?: string;
 }
 
- interface FormFieldProps {
+interface FormFieldProps {
   label: string;
   type?: string;
   id: string;
-  value:string;
-  onChange:any;
+  value: string;
+  onChange: any;
 }
 
- interface BusinessFeatureProps {
+interface BusinessFeatureProps {
   title: string;
   description: string[];
 }
