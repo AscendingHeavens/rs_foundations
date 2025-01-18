@@ -1,4 +1,3 @@
-import { FeatureCardsProps } from "@/types";
 
 
 

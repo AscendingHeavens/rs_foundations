@@ -23,7 +23,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Empowering Innovation with RS Foundations
+              Empowering Innovation with Ascending Heavens
             </div>
           </div>
 

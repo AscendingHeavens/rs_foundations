@@ -31,7 +31,7 @@ const faqdata: Faq[] = [
   {
     question: "What does Ascending Heavens do?",
     answer:
-      "RS Foundations is structured into three branches: RS Tech, which focuses on creating our own projects; RS Solutions, which builds custom projects as per client requirements; and RS Media, specializing in social media marketing services.",
+      "Ascending Heavens is structured into three branches: RS Tech, which focuses on creating our own projects; RS Solutions, which builds custom projects as per client requirements; and RS Media, specializing in social media marketing services.",
   },
   {
     question: "What’s the difference between RS Tech and RS Solutions?",
@@ -65,14 +65,14 @@ const faqdata: Faq[] = [
   },
   {
     question:
-      "Can I use RS Foundations services for both custom projects and marketing?",
+      "Can I use Ascending Heavens services for both custom projects and marketing?",
     answer:
       "Yes! We offer custom project development under RS Solutions and marketing services through RS Media, covering a range of client needs from technical solutions to audience outreach.",
   },
   {
     question: "Do you offer support for completed projects?",
     answer:
-      "Yes, we provide post-project support and maintenance for an additional fee, but only for projects completed by our team at RS Foundations. This ensures that your project continues to run smoothly after launch, with updates, bug fixes, and any necessary adjustments handled by our experts.",
+      "Yes, we provide post-project support and maintenance for an additional fee, but only for projects completed by our team at Ascending Heavens. This ensures that your project continues to run smoothly after launch, with updates, bug fixes, and any necessary adjustments handled by our experts.",
   },
   {
     question: "What is the onboarding process for new projects?",

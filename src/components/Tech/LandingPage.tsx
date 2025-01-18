@@ -24,7 +24,7 @@ const LandingPage = () => {
       imageSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/1e07a71894987d0e508303b2b07464af5b841861ca0e89f03776abf41183410e?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       imageAlt: "Cross-platform application interface",
-      title: "Cross-Platform",
+      title: ["Cross-Platform"],
       description: [
         "AI app templates that work cross",
         "platform to provide a seamless",
@@ -36,7 +36,7 @@ const LandingPage = () => {
       imageSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/e7e2487fccd51a866dd91181e1dd51f3895946d356bb2b281505bea6948eabb6?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       imageAlt: "System integration diagram",
-      title: "Effortless Integration",
+      title: ["Effortless Integration"],
       description: [
         "Quick and easy integration with third",
         "party systems with our proven integration",
@@ -47,7 +47,7 @@ const LandingPage = () => {
       imageSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/e43d859ecb65fed234175a2f57f8e1858bd2fe85c17a237dceb16b7a0c0607f9?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       imageAlt: "Analytics dashboard visualization",
-      title: "Engagement Analytics",
+      title: ["Engagement Analytics"],
       description: [
         "Build and analyze user traction and",
         "engagement analytics with our analytics",
@@ -88,7 +88,7 @@ const LandingPage = () => {
       an ipsum sapien primis vitae volute and magna turpis`
     }
   ];
-
+  
   return (
     <div>
       {/* Hero Section */}

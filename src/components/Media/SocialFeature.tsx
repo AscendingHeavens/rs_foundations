@@ -1,4 +1,4 @@
-import { SocialFeatureProps } from "@/types";
+
 import * as React from "react";
 
 
