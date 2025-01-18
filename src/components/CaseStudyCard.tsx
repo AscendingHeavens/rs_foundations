@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { CaseStudyCardProps } from "./types";
 
 export const CaseStudyCard = ({ imageUrl, description }: CaseStudyCardProps) => {
   return (

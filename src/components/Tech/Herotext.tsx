@@ -1,5 +1,4 @@
 import * as React from "react";
-import { HeroSectionProps } from "./Types";
 
 const Herotext: React.FC<HeroSectionProps> = ({ title, description, imageSrc, imageAlt }) => {
   return (

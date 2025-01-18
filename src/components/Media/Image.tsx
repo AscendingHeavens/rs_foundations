@@ -1,5 +1,4 @@
 import NextImage from "next/image";
-import { ImageProps } from "./types";
 
 export const Image: React.FC<ImageProps> = ({ src, alt, className }) => (
   <NextImage

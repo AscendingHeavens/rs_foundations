@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SupportFeature } from './SupportFeature';
-import { WhyUsContentProps } from './Types';
 
 export const WhyUsContent: React.FC<WhyUsContentProps> = ({ features }) => (
   <div className="flex flex-col grow text-xl leading-8  dark:text-white  text-neutral-800 max-md:mt-10 max-md:max-w-full">

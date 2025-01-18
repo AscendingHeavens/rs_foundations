@@ -1,6 +1,5 @@
 import React from "react";
 import { CaseStudyCard } from "./CaseStudyCard";
-import { CaseStudySectionProps } from "./types";
 import Image from "next/image";
 import Link from "next/link";
 
