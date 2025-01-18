@@ -2,8 +2,6 @@
 
 import * as React from "react"
 import { useState } from "react"
-import { HeroText } from "./HeroText"
-import { Image } from "./Image"
 import { Button } from "./Button"
 import { SocialMediaPresence } from "./SocialMediaPresence"
 

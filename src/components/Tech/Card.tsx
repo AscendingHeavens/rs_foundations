@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const Card: React.FC<FeatureCardProps> = ({
+export const Card: React.FC<SimpleCardProps> = ({
   imageSrc,
   imageAlt,
   title,
@@ -21,12 +21,7 @@ export const Card: React.FC<FeatureCardProps> = ({
           {title}
         </div>
         <div className="mt-6 text-xl leading-8 text-center text-neutral-800">
-          {description.map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
+          {description}
         </div>
       </div>
     </div>

@@ -60,6 +60,14 @@ interface FeatureCardProps {
   title: string[];
   description: string[];
 }
+
+interface SimpleCardProps {
+  imageSrc: string;
+  imageAlt: string;
+  title: string;
+  description: string;
+}
+
 interface SupportFeatureProps {
   description: string;
 }

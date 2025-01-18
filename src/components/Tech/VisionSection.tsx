@@ -1,4 +1,5 @@
 
+import { cardData } from "@/constants";
 import { Card } from "./Card";
 
 
