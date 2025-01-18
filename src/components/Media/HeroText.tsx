@@ -1,4 +1,3 @@
-import { HeroTextProps } from "@/types";
 import * as React from "react";
 
 export const HeroText: React.FC<HeroTextProps> = ({ text, className }) => (
