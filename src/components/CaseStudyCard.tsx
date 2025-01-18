@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 export const CaseStudyCard = ({ imageUrl, description }: CaseStudyCardProps) => {
   return (
     <div className="flex flex-col w-[100%] max-md:ml-0  max-md:w-full group">

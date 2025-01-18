@@ -7,7 +7,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import Logo from "./Logo";
-import { Navlinks } from "@/types";
+
 
 export const Navbar = () => {
   const navigation: Navlinks[] = [

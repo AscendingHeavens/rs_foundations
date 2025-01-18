@@ -1,4 +1,4 @@
-import { BusinessFeatureProps } from "@/types";
+
 import * as React from "react";
 
 

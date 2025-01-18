@@ -77,34 +77,33 @@ interface ImageProps {
   alt: string;
   className: string;
 }
-
-export interface FeatureCardsProps {
+ interface FeatureCardsProps {
   icon: string;
   title: string;
   description?: string;
 }
 
-export interface ButtonProps {
+interface ButtonProps {
   children: React.ReactNode;
   icon?: string;
   onClick?: () => void;
 }
-export interface SocialFeatureProps {
+ interface SocialFeatureProps {
   icon: string;
   text: string;
   description:string;
 }
 
-export interface SocialFeatureListProps {
+ interface SocialFeatureListProps {
   features: SocialFeatureProps[];
 }
 
-export interface ButtonsProps {
+ interface ButtonsProps {
   text: string;
   iconSrc?: string;
 }
 
-export interface FormFieldProps {
+ interface FormFieldProps {
   label: string;
   type?: string;
   id: string;
@@ -112,7 +111,7 @@ export interface FormFieldProps {
   onChange:any;
 }
 
-export interface BusinessFeatureProps {
+ interface BusinessFeatureProps {
   title: string;
   description: string[];
 }

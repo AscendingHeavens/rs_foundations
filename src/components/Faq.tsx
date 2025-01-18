@@ -29,7 +29,7 @@ export const Faq = () => {
 
 const faqdata: Faq[] = [
   {
-    question: "What does RS Foundations do?",
+    question: "What does Ascending Heavens do?",
     answer:
       "RS Foundations is structured into three branches: RS Tech, which focuses on creating our own projects; RS Solutions, which builds custom projects as per client requirements; and RS Media, specializing in social media marketing services.",
   },

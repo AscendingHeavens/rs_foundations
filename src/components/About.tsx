@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { techStack, cardData } from "@/constants";
 
+
+
 const Card: React.FC<CardProps> = ({ title, description, image, link }) => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl dark:bg-gray-800">
@@ -31,7 +33,7 @@ const About = () => {
     <>
       <section className="mb-16">
         <h3 className="text-2xl font-semibold text-gray-700 dark:text-gray-300 mb-6">
-          RS Foundations is a technology-driven organization focused on building
+          Ascending Heavens is a technology-driven organization focused on building
           innovative and industry-changing solutions. We leverage a
           comprehensive tech stack to craft solutions tailored to our client's
           needs, from web and mobile development to data processing, cloud
