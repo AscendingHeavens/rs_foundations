@@ -14,9 +14,12 @@ const TechHero = () => {
           </p>
         </div>
         <div className="mt-10 flex justify-center items-center w-full mx-auto">
-          <button className="bg-blue-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-700 transition duration-300">
-            Get started
-          </button>
+        <a
+  href="/form"
+  className="bg-blue-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
+>
+  Get started
+</a>
           <span className="mx-2">or</span>
           <button className="bg-gray-200 text-gray-800 py-2 px-4 rounded-lg font-medium hover:bg-gray-300 transition duration-300">
             Contact us
