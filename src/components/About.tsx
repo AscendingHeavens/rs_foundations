@@ -11,7 +11,7 @@ const Card: React.FC<CardProps> = ({ title, description, image, link }) => {
         <img src={image} alt={title} className="w-full h-[240px]" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title text-2xl font-semibold text-gray-800 dark:text-gray-100">
+        <h2 className="card-title text-2xl font-semibold text-gray-800 dark:text-purple-600">
           {title}
         </h2>
         <p className="text-md text-gray-700 dark:text-gray-300">
