@@ -13,8 +13,8 @@ export const Hero = () => {
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               At Ascending Heavens, we work across three branches to bring
-              technology and solutions to life. With RS Tech, we create
-              impactful projects for the world. RS Solutions caters to
+              technology and solutions to life. With Ascending Heavens Tech, we create
+              impactful projects for the world. Ascending Heavens Solutions caters to
               client-driven projects, turning visions into reality. And RS Media
               is dedicated to social media marketing, helping brands reach their
               audience.

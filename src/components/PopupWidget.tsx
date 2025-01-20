@@ -75,12 +75,12 @@ export function PopupWidget() {
             <DisclosureButton className="fixed z-40 flex items-center justify-center transition duration-300 bg-indigo-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-indigo-600 focus:bg-indigo-600 ease">
               {open ? (
                 <XMarkIcon
-                  className="absolute w-6 h-6 text-white"
+                  className="absolute w-6 h-6 dark:text-white text-white"
                   aria-hidden="true"
                 />
               ) : (
                 <ChatBubbleOvalLeftEllipsisIcon
-                  className="absolute w-6 h-6 text-white"
+                  className="absolute w-6 h-6 dark:text-white text-white"
                   aria-hidden="true"
                 />
               )}
@@ -96,7 +96,7 @@ export function PopupWidget() {
             >
               <DisclosurePanel className="flex flex-col overflow-hidden w-full h-full sm:max-w-[350px] border border-gray-300 dark:border-gray-800 dark:bg-black bg-white shadow-2xl rounded-md">
                 <div className="p-6 sm:w-[350px] flex flex-col justify-center h-full dark:bg-black bg-white border border-gray-300 shadow-xl rounded-md">
-                  <h3 className="text-lg text-center dark:text-purple-500 text-indigo-600">
+                  <h3 className="text-lg text-center dark:text-purple-500  text-indigo-600">
                     Please Provide Suggestions or Requests
                   </h3>
 
@@ -105,7 +105,7 @@ export function PopupWidget() {
                     <div className="mb-4">
                       <label
                         htmlFor="name"
-                        className="block text-sm text-gray-600"
+                        className="block text-sm dark:text-white text-gray-600"
                       >
                         Full Name
                       </label>
@@ -125,7 +125,7 @@ export function PopupWidget() {
                     <div className="mb-4">
                       <label
                         htmlFor="email"
-                        className="block text-sm text-gray-600"
+                        className="block text-sm dark:text-white text-gray-600"
                       >
                         Email Address
                       </label>
@@ -155,7 +155,7 @@ export function PopupWidget() {
                         value={formData.section}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                        className="w-full px-3 py-2 border dark:text-white border-gray-300 rounded-md"
                       >
                         <option value="Tech">Tech</option>
                         <option value="Solution">Solution</option>
@@ -183,7 +183,7 @@ export function PopupWidget() {
                         value={formData.message}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md"
+                        className="w-full px-3 py-2 border dark:text-white border-gray-300 rounded-md"
                       />
                     </div>
 
@@ -191,7 +191,7 @@ export function PopupWidget() {
                     <div className="mb-4">
                       <button
                         type="submit"
-                        className="w-full px-3 py-4 bg-indigo-500 text-white rounded-md"
+                        className="w-full px-3 py-4 bg-indigo-500 dark:text-white text-white rounded-md"
                       >
                         Submit
                       </button>

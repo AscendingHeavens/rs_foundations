@@ -31,25 +31,25 @@ const faqdata: Faq[] = [
   {
     question: "What does Ascending Heavens do?",
     answer:
-      "Ascending Heavens is structured into three branches: RS Tech, which focuses on creating our own projects; RS Solutions, which builds custom projects as per client requirements; and RS Media, specializing in social media marketing services.",
+      "Ascending Heavens is structured into three branches: Tech, which focuses on creating our own projects; Ascending HeavensSolutions, which builds custom projects as per client requirements; and Ascending HeavensMedia, specializing in social media marketing services.",
   },
   {
-    question: "What’s the difference between RS Tech and RS Solutions?",
+    question: "What’s the difference between Ascending Heavens Tech and Ascending Heavens Solutions?",
     answer:
-      "RS Tech is dedicated to developing proprietary projects aimed at innovation and market impact, while RS Solutions is a service-based branch that builds projects tailored to client specifications.",
+      "Ascending Heavens Tech is dedicated to developing proprietary projects aimed at innovation and market impact, while RS Solutions is a service-based branch that builds projects tailored to client specifications.",
   },
   {
-    question: "What is the hourly rate for RS Solutions projects?",
+    question: "What is the hourly rate for Ascending Heavens Solutions projects?",
     answer:
-      "Our rate for RS Solutions is 300 INR per hour, approximately 3.60 USD or 2.85 GBP.",
+      "Our rate for Ascending Heavens Solutions is 400 INR per hour, approximately 4.62 USD or 3.80 GBP.",
   },
   {
-    question: "What services does RS Solutions offer?",
+    question: "What services does Ascending Heavens Solutions offer?",
     answer:
       "We offer full-stack services, including UI/UX design, Frontend Web development, Mobile App development, APIs and Backend solutions. We handle everything from planning to execution, ensuring a seamless experience for your project. We manage everything from the initial planning stages to the final execution, ensuring your project is completed with attention to detail and the highest industry standards.",
   },
   {
-    question: "What is the typical timeline for RS Solutions projects?",
+    question: "What is the typical timeline for Ascending Heavens Solutions projects?",
     answer:
       "Timelines vary based on project complexity, requirements, and scope. After our initial consultation, we will provide you with an estimated timeline for your specific project.",
   },
@@ -67,7 +67,7 @@ const faqdata: Faq[] = [
     question:
       "Can I use Ascending Heavens services for both custom projects and marketing?",
     answer:
-      "Yes! We offer custom project development under RS Solutions and marketing services through RS Media, covering a range of client needs from technical solutions to audience outreach.",
+      "Yes! We offer custom project development under Ascending Heavens Solutions and marketing services through Ascending Heavens Media, covering a range of client needs from technical solutions to audience outreach.",
   },
   {
     question: "Do you offer support for completed projects?",
