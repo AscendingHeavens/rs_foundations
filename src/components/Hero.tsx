@@ -15,7 +15,7 @@ export const Hero = () => {
               At Ascending Heavens, we work across three branches to bring
               technology and solutions to life. With Ascending Heavens Tech, we create
               impactful projects for the world. Ascending Heavens Solutions caters to
-              client-driven projects, turning visions into reality. And RS Media
+              client-driven projects, turning visions into reality. And Ascending Heavens Media
               is dedicated to social media marketing, helping brands reach their
               audience.
             </p>
