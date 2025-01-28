@@ -67,25 +67,25 @@ const LandingPage = () => {
       imgSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/7e51603350324b7c71f4f4c58c0a1f3db9b8200e087c3d9df39f39b861cd58a0?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       title: "Built-in automation",
-      description: `Quaerat sodales sapien blandit purus primis purus ipsum
-      cubilia laoreet augue luctus and magna dolor luctus egestas
-      an ipsum sapien primis vitae volute and magna turpis`
+      description: `Transform your website with automation that streamlines operations
+      enhances user experiences, and boosts efficiency.From smart forms to personalized user engagement
+       we provide tailored solutions to help your business thrive online.`
     },
     {
       imgSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/58abbcf1e17eb937ca8d9fdb686e41d2be4aa5b6a325fd1d49e2002d0c12982f?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       title: "Automatic workflows",
-      description: `Quaerat sodales sapien blandit purus primis purus ipsum
-      cubilia laoreet augue luctus and magna dolor luctus egestas
-      an ipsum sapien primis vitae volute and magna turpis`
+      description: `Optimize your business processes with automated workflows that reduce manual tasks and enhance efficiency.
+      Streamline operations and improve user engagement for a smarter,
+    solution-driven website experience.`
     },
     {
       imgSrc:
         "https://cdn.builder.io/api/v1/image/assets/TEMP/caa9c2079919f507b910cac8b077fce3327ed8c871f70ba0b1d7908b111a9c56?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
       title: "Real-time analytics",
-      description: `Quaerat sodales sapien blandit purus primis purus ipsum
-      cubilia laoreet augue luctus and magna dolor luctus egestas
-      an ipsum sapien primis vitae volute and magna turpis`
+      description: `Gain actionable insights with real-time analytics to monitor user behavior 
+     and website performance. Make informed decisions
+      and optimize strategies on the go.`
     }
   ];
   
