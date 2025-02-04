@@ -137,7 +137,7 @@ const LandingPage = () => {
            <div className=" py-10 px-16 mr-10 ml-10 flex flex-col items-center">
         <Headline
           title="The Complete Solutions"
-          description="Ligula risus auctor tempus magna feugiat lacinia."
+          description=""
           />
         <div className="self-stretch mt-10 w-full max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
@@ -151,7 +151,7 @@ const LandingPage = () => {
                 />
               ))}
             </div>
-            <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col ml-10 w-6/12 max-md:ml-0 max-md:w-full">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/a397b44371ce55a567281b5a686594fee692b0ba1220fb29e298de69b59c7984?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37"
                 alt="Descriptive image text"
