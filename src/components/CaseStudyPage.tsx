@@ -10,12 +10,12 @@ export interface CaseStudyCardProps {
 export const CaseStudiesPage = () => {
   const caseStudiesData = [
     {
-      imageUrl: "/LandingPage.png", 
+      imageUrl: "/agency.png", 
       description: "Agency Website",
       url: "https://transcendconsultancy.in/",  // Add a valid URL
     },
     {
-      imageUrl: "/agency.png",
+      imageUrl: "/LandingPage.png",
       description: "Product Landing Page",
       url: "https://vrindaskin.vercel.app/",  // Add a valid URL
     },
