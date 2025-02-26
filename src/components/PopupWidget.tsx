@@ -39,7 +39,7 @@ export function PopupWidget() {
     console.log(formData);
 
     // Placeholder API URL for now
-    const apiUrl = "https://jsonplaceholder.typicode.com/posts"; // Placeholder API
+    const apiUrl = "https://rs-backend-9wvi.onrender.com/contact"; // Placeholder API
 
     await fetch(apiUrl, {
       method: "POST",
