@@ -38,11 +38,8 @@ const faqdata: Faq[] = [
     answer:
       "Ascending Heavens Tech is dedicated to developing proprietary projects aimed at innovation and market impact, while RS Solutions is a service-based branch that builds projects tailored to client specifications.",
   },
-  {
-    question: "What is the hourly rate for Ascending Heavens Solutions projects?",
-    answer:
-      "Our rate for Ascending Heavens Solutions is 400 INR per hour, approximately 4.62 USD or 3.80 GBP.",
-  },
+  
+ 
   {
     question: "What services does Ascending Heavens Solutions offer?",
     answer:
@@ -58,11 +55,7 @@ const faqdata: Faq[] = [
     answer:
       "We provide regular updates and use project management tools to keep you informed of every milestone. You’ll have visibility into the project’s progress and can communicate directly with our team throughout.",
   },
-  {
-    question: "Are there additional costs besides the hourly rate?",
-    answer:
-      "While the hourly rate covers development time, certain projects may require additional resources, third-party services, or subscriptions, which are not included in the base rate. We will inform you upfront of any such costs so there are no surprises.",
-  },
+  
   {
     question:
       "Can I use Ascending Heavens services for both custom projects and marketing?",
