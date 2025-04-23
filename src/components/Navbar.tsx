@@ -14,6 +14,7 @@ export const Navbar = () => {
     { title: "Tech", href: "/tech" },
     { title: "Solutions", href: "/solutions" },
     { title: "Media", href: "/media" },
+    {title: "Pricing", href: "/pricing"},
     { title: "Articles", href: "https://medium.com/@rishimishra0404" },
   ];
 

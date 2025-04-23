@@ -123,3 +123,33 @@ interface BusinessFeatureProps {
   title: string;
   description: string[];
 }
+
+type PriceWithUSD = {
+  inr: string;
+  usd: string;
+};
+
+type BaseProject = {
+  projectType: string;
+  priceRange: PriceWithUSD;
+  details: string;
+};
+
+type AddOnService = {
+  service: string;
+  pricing: PriceWithUSD;
+  details: string;
+};
+
+type BundlePackage = {
+  bundle: string;
+  includes: string;
+  discountedPrice: PriceWithUSD;
+};
+
+interface PricingCardItem {
+  title: string
+  price: string
+  usd: string
+  details: string
+}
