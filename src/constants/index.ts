@@ -238,16 +238,16 @@ export const smartBundles: BundlePackage[] = [
 
 export const FADE_IN_ANIMATION = (scrollDirection: string):Variants => {
   return {
-    hidden: (i: number) => ({
-      opacity: 0,
-      y: scrollDirection === "down" ? 10 : -10,
-      transition: { delay: i * 0.05, duration: 0.4 }, 
-    }),
-    visible: (i: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { delay: i * 0.1, duration: 0.5 },
-    }),
+    // hidden: (i: number) => ({
+    //   opacity: 0,
+    //   y: scrollDirection === "down" ? 10 : -10,
+    //   transition: { delay: i * 0.05, duration: 0.4 }, 
+    // }),
+    // visible: (i: number) => ({
+    //   opacity: 1,
+    //   y: 0,
+    //   transition: { delay: i * 0.1, duration: 0.5 },
+    // }),
   };
 };
 
