@@ -30,7 +30,8 @@ const PricingCard: React.FC<PricingCardProps> = ({ title, items }) => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection, {
-      threshold: isMobile ? 0.1 : 0.5,
+      threshold: isMobile ? 0.1 : 0.7, // Adjust threshold for mobile 0.1 means 10% visibility and desktop 0.5 means 50% visibility
+
     });
 
     if (sectionRef.current) observer.observe(sectionRef.current);
