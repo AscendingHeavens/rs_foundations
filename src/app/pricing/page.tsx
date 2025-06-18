@@ -4,7 +4,6 @@ import { basePricing, addOns, smartBundles } from "@/constants";
 import React from "react";
 import PricingCard from "@/components/pricing/PricingCard";
 
-
 const PricingPage = () => {
   const baseItems: PricingCardItem[] = basePricing.map((b) => ({
     title: b.projectType,
@@ -28,12 +27,17 @@ const PricingPage = () => {
   }));
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0f0f0f] to-[#1a1a1a] p-8 text-white">
+    <div
+      className="min-h-screen bg-white text-black dark:bg-trueGray-900 p-8 dark:text-white dark:bg-gradient-to-b "
+    >
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold mb-16 text-center">
           🚀 Ascending Heavens Pricing
         </h1>
-        <PricingCard title="💰 Base Pricing by Project Type" items={baseItems} />
+        <PricingCard
+          title="💰 Base Pricing by Project Type"
+          items={baseItems}
+        />
         <PricingCard title="💎 Add-ons & Upsells" items={addOnItems} />
         <PricingCard title="🚀 Smart Bundles" items={bundleItems} />
       </div>
